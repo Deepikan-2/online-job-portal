@@ -48,4 +48,12 @@ Technologies Used:
 Frontend: React
 Backend: Spring Boot
 Database: MySQL
->>>>>>> bf0e1e9249788944f3a81bedd63076b71d2d3d6a
+_____________________________________________________________________
+Frontend
+cd frontend
+npm start
+The frontend development server will run on http://localhost:3000 by default.
+
+5. Open in Browser
+Open your web browser and navigate to http://localhost:3000 to access the JFSD+MS application.
+
