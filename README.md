@@ -1,89 +1,51 @@
-
-FOR THE SET UP OF PROJECT, PLEASE FOLLOW THE SET UP GUIDE VIDEO PROPERLY WITHOUT SKIPPING ANYTHING.
-
-SET UP GUIDE VIDEO LINK: https://drive.google.com/file/d/1iGVpV7ltrU7RBcuJ0nDdCxF7AebYAhNG/view?usp=drive_link
-
-Request access for the set up guide video, because it is private
-
------------------------------------------------------------------------
-
-Befor starting the project set up, make sure you have properly installed the below softwares:
-1) Java JDK 17 or above version
-2) STS (STS 4 recommended)
-3) Node JS
-4) Vs Code
-5) MySQL Server and MySQL WorkBench (use can also use Command prompt for Data Querying, But I recommend to use Workbench)
-
------------------------------------------------------------------------
-
-As shown on video, For running frontend we have to use [npm start] command.
-
-1) After hitting [npm start] command, when we get [Error: cannot find module react], 
-
-so in that case, please hit below command.
-
-npm install --save react react-dom @types/react @types/react-dom
-
-and after hitting the above command, you can hit the command [npm start] and now this time it will work fine.
-
-2) Sometime we can also get below error:
-
-react-scripts' is not recognized as an internal or external command
-
-so in this case hit below command firstly, then again hit [npm start] command.
-
-npm install react-scripts --save
-
------------------------------------------------------------------------
-
-MYSQL FAQs:
-
-Do I need to create database and table manually?
-
-NO, you don't have to create the Database and Tables manually in the MySQL Server. When you run the backend application for the first time it automatically
-creates the Database and Tables in the MySQL server.
-
-You just have to enter the correct mysql password in application.properties file and make sure MySQL Server is properly installed in your system.
+# online-job-portal
+Online Job Portal
+An online job portal application developed using React for the frontend, Spring Boot for the backend, and MySQL as the database. This platform connects job seekers (employees) with employers, allowing efficient job applications and management. The portal includes distinct modules for Admin, Employer, and Employee, each with specific functionalities.
 
 
------------------------------------------------------------------------
+Required Software
+To run this project, you need the following software installed on your system:
 
-AFTER SET UP PROCESS
-
-Now if your set up is done and both backend and frontend is running fine.
-
-NOTE: In your system, you'll not be able to see all the Data as shown in my set up video,  because you have just executed the project in your system
-and there is no data present in your database.
-
-So don't get tensed.
-
-You simply have to follow my youtube video, where I have shown each and every functionalities of the project, so just follow that and try to perform all the
-functionalities as shown in my youtube video, you'll also get familiar about the project.
-
-ADMIN CREDENTIAL:     (this is harded coded, check main class)
-
-Email Id: demo.admin@demo.com
-Password: 123456
+Visual Studio Code (VS Code): For frontend development.
+JDK 17 or above: Required to run the Spring Boot application.
+Spring Boot Framework: For backend development.
+MySQL: As the database for storing all application data.
 
 
-PROJECT YOUTUBE VIDEO LINK: https://www.youtube.com/watch?v=IYNdcUSbMW8
+Features:
 
-And Lastly, Go through the Code and try to understand the Code, it will help alot:)
+Admin Module:
 
------------------------------------------------------------------------
+Admin Login and Registration (Admin can register another admin).
+Manage Job Categories:
+Create, View, Update, and Delete (CRUD) job categories.
+View Details:
+Employee details.
+Employer details.
+Job applications.
+___________________________________________________________________
+Employer Module:
 
-If you face any issue during set up, please do contact me:
+Registration and Login for Employers.
+Add Jobs:
+Post new job openings.
+View jobs posted by the employer.
+Manage applications (shortlist/reject/cancel).
+Track Applications:
+View the number of applications received for each job.
+___________________________________________________________________
+Employee Module:
 
-Contact Details:
+Registration and Login for Employees.
+Job Search and Application:
+Browse available jobs.
+Apply for jobs.
+Profile Management:
+Update personal information (e.g., name, bio, resume, GitHub, LinkedIn, website link, skills, work experience).
+_____________________________________________________________________
+Technologies Used:
 
-Email Id: codewithmurad@gmail.com
-Instagram: https://www.instagram.com/codewithmurad/
-Facebook: https://www.facebook.com/codewithmurad/
-Telegram: https://t.me/codewithmurad
-Whatsapp: http://wa.me/917304353428
-Discord:https://discord.com/invite/9TPphFmGMh
-
-
-ONCE SET UP IS DONE, PLEASE DO SUBSCRIBE MY YOUTUBE CHANNEL: https://www.youtube.com/@CodeWithMurad
-
-*********** THANK YOU ***********
+Frontend: React
+Backend: Spring Boot
+Database: MySQL
+>>>>>>> bf0e1e9249788944f3a81bedd63076b71d2d3d6a
